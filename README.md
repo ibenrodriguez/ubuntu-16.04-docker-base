@@ -1,8 +1,10 @@
-# Ubuntu 16.04 Docker base image    
+# Ubuntu Docker base image    
 ===    
 
 #### A demonstration of building and vulnerability scanning an OS Base Docker image    
-Ubuntu 16.04 with a shell. 
+Has multiple (69) Vulnerable components - Ubuntu 16.04 with a shell. 
+
+Changing docker file to use newer ubuntu 18.04 image will show less (42) vulnerabilities.
 
 The idea with this image is to push it into GCR Google Cloud Repository where the 
 vulnerability management scanner can function.
