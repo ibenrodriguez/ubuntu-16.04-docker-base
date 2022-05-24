@@ -23,11 +23,10 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-    - task: Docker@2
-      inputs:
-        containerRegistry: 'iben docker hub'
+- task: Docker@2
+  inputs:
+  containerRegistry: 'iben docker hub'
         repository: 'iben/ubuntu-16.04-docker-base'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
 
-        
