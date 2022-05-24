@@ -27,4 +27,4 @@ steps:
   inputs:
     containerRegistry: 'iben docker hub'
     command: 'buildAndPush'
-    Dockerfile: '**/Dockerfile'
+    Dockerfile: 'iben/ubuntu-16.04-docker-base'
