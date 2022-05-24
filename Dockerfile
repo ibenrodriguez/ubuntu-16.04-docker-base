@@ -1,8 +1,8 @@
 FROM ubuntu:16.04
 # FROM ubuntu
 
-LABEL "com.scalsec.infra.docker"="ScaleSec GCP Cloud Build Demo - Ubuntu 16.04 Docker base image"
-LABEL "MAINTAINER"="Gordon Young <gordon@scalesec.com>"
+LABEL "com.sjultra.infra.docker"="Ubuntu 16.04 Docker base image"
+LABEL "MAINTAINER"="Iben Rodriguez <iben@sjultra.com>"
 # Iben was here
 
 RUN apt-get update && apt-get -y install ca-certificates
