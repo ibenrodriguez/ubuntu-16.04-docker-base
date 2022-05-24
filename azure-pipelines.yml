@@ -29,3 +29,4 @@ steps:
     repository: 'iben/ubuntu-16.04-docker-base'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
+    tags: latest
