@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20201014
 # FROM ubuntu
 
 LABEL "com.sjultra.infra.docker"="Ubuntu 16.04 Docker base image"
